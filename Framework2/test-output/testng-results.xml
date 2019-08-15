@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="58122" started-at="2019-06-22T20:01:55Z" finished-at="2019-06-22T20:02:53Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="58122" started-at="2019-06-22T20:01:55Z" finished-at="2019-06-22T20:02:53Z">
+      <class name="com.qa_testcases.LoginPageTest">
+        <test-method status="PASS" signature="openBrowser(java.lang.String, java.lang.String)[pri:0, instance:com.qa_testcases.LoginPageTest@cb644e]" name="openBrowser" is-config="true" duration-ms="20275" started-at="2019-06-23T01:31:55Z" finished-at="2019-06-23T01:32:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://ui.cogmento.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="init()[pri:0, instance:com.qa_testcases.LoginPageTest@cb644e]" name="init" is-config="true" duration-ms="16" started-at="2019-06-23T01:32:15Z" finished-at="2019-06-23T01:32:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="Login()[pri:0, instance:com.qa_testcases.LoginPageTest@cb644e]" name="Login" duration-ms="7650" started-at="2019-06-23T01:32:15Z" finished-at="2019-06-23T01:32:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="driverClose()[pri:0, instance:com.qa_testcases.LoginPageTest@cb644e]" name="driverClose" is-config="true" duration-ms="1517" started-at="2019-06-23T01:32:23Z" finished-at="2019-06-23T01:32:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverClose -->
+      </class> <!-- com.qa_testcases.LoginPageTest -->
+      <class name="com.qa_testcases.HomePageTest">
+        <test-method status="PASS" signature="openBrowser(java.lang.String, java.lang.String)[pri:0, instance:com.qa_testcases.HomePageTest@13805618]" name="openBrowser" is-config="true" duration-ms="18859" started-at="2019-06-23T01:32:25Z" finished-at="2019-06-23T01:32:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://ui.cogmento.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="init()[pri:0, instance:com.qa_testcases.HomePageTest@13805618]" name="init" is-config="true" duration-ms="7572" started-at="2019-06-23T01:32:43Z" finished-at="2019-06-23T01:32:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="verifyClickonContactlink()[pri:0, instance:com.qa_testcases.HomePageTest@13805618]" name="verifyClickonContactlink" duration-ms="2212" started-at="2019-06-23T01:32:51Z" finished-at="2019-06-23T01:32:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyClickonContactlink -->
+      </class> <!-- com.qa_testcases.HomePageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
