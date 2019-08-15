@@ -21,6 +21,7 @@ public class TestBase {
 	@Parameters({"browser","baseURL"})
 	@BeforeClass
 	
+	
 		//opening the browser
 	    public void openBrowser(String browser,String baseURL) {
 	        System.out.println("Test one suite param is: " + baseURL+"--"+browser);
